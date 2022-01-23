@@ -33,7 +33,7 @@ namespace HashTableAndBst
             LinkedListofPosition.AddLast(keyValue);
         }
 
-        public int ArrayPosition(K key) 
+        public int ArrayPosition(K key)  
         {
             int hashcode = key.GetHashCode();
             int position = hashcode % size;
