@@ -28,9 +28,6 @@ namespace HashTableAndBst
             {
                 myMapNode.Display(i);
             }
-
-
-
         }
     }
 }
